@@ -41,6 +41,11 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ---
 
+## Repositoty Structure
+
+
+
+---
 ## License
 
 This project is licensed under the [MIT License].(LICENSE). You are free to use, modify, and share this project with proper attribution.
