@@ -43,9 +43,78 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 
 ## Repositoty Structure
 
+# SQL Data Warehouse Project — Repository Structure
 
+```text
+sql-data-warehouse-project/
+│
+├── datasets/
+│   ├── source_crm/
+│   │   ├── cust_info.csv
+│   │   ├── prd_info.csv
+│   │   └── sales_details.csv
+│   │
+│   └── source_erp/
+│       ├── cust_az12.csv
+│       ├── loc_a101.csv
+│       └── px_cat_g1v2.csv
+│
+├── docs/
+│   ├── data_architecture.png
+│   ├── data_architecture.drawio
+│   ├── data_flow.png
+│   ├── data_flow.drawio
+│   ├── data_integration.png
+│   ├── data_integration.drawio
+│   ├── data_model.png
+│   ├── data_model.drawio
+│   │
+│   ├── data_catalog.md
+│   ├── naming_conventions.md
+│   ├── project_requirements.md
+│   └── README.md
+│
+├── scripts/
+│   │
+│   ├── init_database.sql
+│   │
+│   ├── bronze/
+│   │   ├── ddl_bronze.sql
+│   │   └── proc_load_bronze.sql
+│   │
+│   ├── silver/
+│   │   ├── ddl_silver.sql
+│   │   └── proc_load_silver.sql
+│   │
+│   └── gold/
+│       ├── ddl_gold.sql
+│       ├── dim_customers.sql
+│       ├── dim_products.sql
+│       └── fact_sales.sql
+│
+├── tests/
+│   ├── bronze/
+│   │   └── quality_checks_bronze.sql
+│   │
+│   ├── silver/
+│   │   └── quality_checks_silver.sql
+│   │
+│   └── gold/
+│       └── quality_checks_gold.sql
+│
+├── analytics/
+│   ├── customer_analysis.sql
+│   ├── product_analysis.sql
+│   ├── sales_analysis.sql
+│   └── kpi_analysis.sql
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 ---
+
 ## License
 
 This project is licensed under the [MIT License].(LICENSE). You are free to use, modify, and share this project with proper attribution.
