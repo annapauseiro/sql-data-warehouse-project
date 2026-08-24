@@ -122,3 +122,5 @@ This project is licensed under the [MIT License].(LICENSE). You are free to use,
 ## About Me
 
 Hey there! I’m Anna Pauseiro, an IT professional passionate about data and the stories we can tell through it.
+
+[![Website](https://img.shields.io/badge/Website-814256)](https://annapauseiro.my.canva.site/)  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2)](https://www.linkedin.com/in/anna-paula-pauseiro-467a2a270/)
